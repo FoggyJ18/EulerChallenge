@@ -9,5 +9,3 @@ for number in range(1, 1001):
         sum += number
     elif number % 5 == 0:
         sum += number
-
-print(sum)
