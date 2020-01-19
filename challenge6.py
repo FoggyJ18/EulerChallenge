@@ -10,7 +10,9 @@ def diff_2_sums(limit):
         sum_of_squared += test * test
         squared_sum += test
     final_answer = (squared_sum * squared_sum) - sum_of_squared
-    print(final_answer)
+    print('The sum of all squared integers in the given range is ' + str(sum_of_squared) + '.\nThe sum of all the '
+          'integers in the given range squared is ' + str(squared_sum*squared_sum) + '.\n The difference of the '
+          '2 numbers is ' + str(final_answer) + '.')
 
 
 diff_2_sums(100)
